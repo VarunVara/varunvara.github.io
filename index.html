@@ -97,16 +97,20 @@ div.content {
 }
 
 .page {
-    padding:15px;
+    margin: 25px;
+    padding:25px;
     min-height: 100%;
     overflow: hidden;
+    font-family: "Cambria"
 }
 
 #profile {
     
 }
 #experience {
-    
+    background-color: #fff;
+    text-align: center;
+    opacity: 0.9;
 }
 #education {
     
@@ -119,68 +123,6 @@ div.content {
 }
 #contact {
 
-}
-
-.cardlist {
-    list-style-type: none;
-    text-align: center;
-    padding:0;
-}
-
-.cardlist li {
-    margin: 20px;
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-}
-
-.desc li {
-    text-align: left;
-    margin: 5px;
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 350px;
-    height: 500px;
-    border-radius: 5px;
-    color: #FFF;
-    padding: 15px;
-    text-align: center;
-    background-color: #222;
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.card img {
-    width: 100%;
-    background-color: #FFF;
-}
-
-.card .employer {
-    margin: 15px;
-    font-size: 16pt;
-    font-weight: bold;
-}
-.card .location {
-    font-size: 10pt;
-    font-style: italic;
-    font-weight: bold;
-}
-.card .dates {
-    font-size: 10pt;
-    font-style: italic;
-}
-
-.card .title {
-    margin: 10px;
-    font-size: 12pt;
-    font-style: italic;
-    font-weight: bold;
 }
 
 .pills {
@@ -239,6 +181,37 @@ div.content {
   width: 75%;
 }
 
+.jobs {
+    font-size: 10pt;
+    display: inline-block;
+    text-align: justify;
+}
+.jobs h1 {
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.jobs h2 {
+    font-weight: bold;
+    font-size: 14pt;
+    text-align: left;
+}
+
+.jobs h3 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12pt;
+    text-align: left;
+    margin: 5px;
+}
+
+.jobs h4 {
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12pt;
+}
+
 </style>
 </head>
 <body>
@@ -262,12 +235,152 @@ div.content {
 </div>
 
 <div class="page" id="experience">
-    <font color="white">
-        <center>
-            <h2>Experience</h2>
-        </center>
-    </font>
+    <h1>Experience</h1>
+    <table border="0" class="jobs">
+        <col width="30%">
+        <tr>
+            <td colspan="2">
+                <hr>
+                <h2>Naval Air Systems Command, NAWCWD</h2>
+            </td>
+        </tr>
+        <tr>
+            <td><h4>Jan. 2017 - Present</h4></td>
+            <td><h3>Electrical Engineer - Seaborne Targets Branch</h3></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <ul>
+                    <li> Designed and implemented control software for unmanned boats and jetskis.</li>
+                    <li> Built a new user interface from scratch using C#/WPF for novel command and control of autonomous swarms</li>
+                    <li> Developed a ultrafast capacitive break sensor for projectile hit detection.</li>
+                </ul>
+            </td>
+        </tr>
+        
+        <tr>
+            <td><h4>Aug. 2015 - Jan. 2017</h4></td>
+            <td><h3>Infrared/Simulation Engineer - Electro-Optics Group</h3></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <ul>
+                    <li> Developed software tools to model infrared phenomena and validate measurements.</li>
+                    <li> Implemented a MATLAB tool to automatically match infrared images to 3D models. This used to be done tediously by hand.</li>
+                    <li> Developed a novel technique to render measured plume data using a custon built OpenGL shader.</li>
+                </ul>
+            </td>
+        </tr>
 
+        <tr>
+            <td><h4>Apr. 2015 - Aug. 2015</h4></td>
+            <td><h3>Neural Network Designer - Airborne Electronic Attack Group</h3></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <ul>
+                    <li> Researched, Designed and Implemented a Neural Network to analyze RADAR plots to test jamming technique effectiveness.</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td><h4>Oct. 2014 - Apr. 2015</h4></td>
+            <td><h3>Software Engineer - TACAIR</h3></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <ul>
+                    <li> Developed software tools to aggregate, display, and analyze flight test data</li>
+                </ul>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td colspan="2">
+                    <hr>
+                <h2>Rutherford Appleton Laboratory</h2>
+            </td>
+        </tr>
+        <tr>
+            <td><h4>Jun. 2014 - Sept. 2014</h4></td>
+            <td><h3>Visiting Scientist - Particle Physics Group</h3></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <ul>
+                    <li> Created a calibration routine and LabVIEW control interface for simulating minimum ionizing particle events using an IR pulse laser.</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                    <hr>
+                <h2>California Polytechnic State University, SLO</h2>
+            </td>
+        </tr>
+        <tr>
+            <td><h4>Sept. 2013 - Jun. 2014</h4></td>
+            <td><h3>Graduate Assistant/Lecturer</h3></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <ul>
+                    <li> Developed a Virtual Reality engine from scratch using Oculus Rift and Microsoft Kinect</li>
+                    <li> Taught EE 241 and 242 circuit labs</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                    <hr>
+                <h2>CERN (The European Organization for Nuclear Research</h2>
+            </td>
+        </tr>
+        <tr>
+            <td><h4>Jun. 2013 - Aug. 2013</h4></td>
+            <td><h3>ATLAS Research Intern</h3></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <ul>
+                    <li> Got selected to work at CERN as a summer student</li>
+                    <li> Designed a 3D Modelling and Event tracking system that was used to plan the Phase II upgrade to the ATLAS detector.</li>
+                    <li> Developed a general-purpose noise model for the ATLAS inner tracker.</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                    <hr>
+                <h2>Mine Ventilation Services</h2>
+            </td>
+        </tr>
+        <tr>
+            <td><h4>Dec. 2010 - Aug. 2013</h4></td>
+            <td><h3>Graphics/Simulation Programmer</h3></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <ul>
+                    <li> Developed a 3D visualization system for VnetPC mine ventilation software</li>
+                </ul>
+            </td>
+        </tr>
+    
+    </table>
 </div>
 
 <div class="page" id="education">
