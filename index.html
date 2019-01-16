@@ -98,8 +98,8 @@ div.content {
 
 .page {
     background: none;
-    margin: 25px;
-    padding:25px;
+    margin: 15px;
+    padding: 25px;
     min-height: 100%;
     overflow: hidden;
     font-family: "Cambria"
@@ -114,9 +114,7 @@ div.content {
     opacity: 0.9;
 }
 #education {
-    background-color: #fff;
     text-align: center;
-    opacity: 0.9;
 }
 #skills {
     
@@ -185,7 +183,7 @@ div.content {
 }
 
 .jobs {
-    font-size: 10pt;
+    font-size: 12pt;
     display: inline-block;
     text-align: justify;
 }
@@ -209,10 +207,40 @@ div.content {
 }
 
 .jobs h4 {
-    text-align: center;
+    text-align: left;
     font-style: italic;
     font-weight: normal;
     font-size: 12pt;
+}
+
+.diploma {
+    text-align: center;
+    background-color: #eeeeee;
+    margin: 25px;
+    padding: 50px;
+    display: inline-block;
+    border-radius: 3px;
+    width: 40%;
+    max-width: 600px;
+    opacity: 0.9;
+}
+
+.diploma img {
+    width: 40%;
+}
+
+.diploma h2 {
+    font-size: 1.5vw;
+}
+
+.diploma h3 {
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.diploma h4 {
+    font-size: 1vw;
+    font-weight: normal;
 }
 
 </style>
@@ -239,12 +267,13 @@ div.content {
 
 <div class="page" id="experience">
     <h1>Experience</h1>
-    <table border="0" class="jobs">
+    <table class="jobs">
         <col width="30%">
         <tr>
             <td colspan="2">
                 <hr>
                 <h2>Naval Air Systems Command, NAWCWD</h2>
+                <h4>575 I Avenue, Suite 1, Point Mugu, CA 93042-5049</h4>
             </td>
         </tr>
         <tr>
@@ -308,6 +337,7 @@ div.content {
             <td colspan="2">
                     <hr>
                 <h2>Rutherford Appleton Laboratory</h2>
+                <h4>S.T.F.C RAL Harwell Oxford Didcot OX11 0QX </h4>
             </td>
         </tr>
         <tr>
@@ -327,6 +357,7 @@ div.content {
             <td colspan="2">
                     <hr>
                 <h2>California Polytechnic State University, SLO</h2>
+                <h4>1 Grand Avenue, San Luis Obispo, CA 93407-038</h4>
             </td>
         </tr>
         <tr>
@@ -346,7 +377,8 @@ div.content {
         <tr>
             <td colspan="2">
                     <hr>
-                <h2>CERN (The European Organization for Nuclear Research</h2>
+                <h2>CERN (The European Organization for Nuclear Research)</h2>
+                <h4>Route de Meyrin 385, 1217 Meyrin, Switzerland </h4>
             </td>
         </tr>
         <tr>
@@ -368,6 +400,7 @@ div.content {
             <td colspan="2">
                     <hr>
                 <h2>Mine Ventilation Services</h2>
+                <h4>1625 Shaw Ave #103 Clovis, CA 93611, USA</h4>
             </td>
         </tr>
         <tr>
@@ -387,51 +420,25 @@ div.content {
 </div>
 
 <div class="page" id="education">
-    <h1>Education</h1>
-    <table class="jobs">
-        <col width="30%">
-        <tr>
-            <td colspan="2">
-                <hr>
-                <h2>California Polytechnic State University, SLO</h2>
-            </td>
-        </tr>
-        <tr>
-            <td><h4>June 2014</h4></td>
-            <td><h3>Master of Science - Electrical Engineering</h3></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>
-                <ul>
-                    <li> Outstanding Graduate Student Award.</li>
-                    <li> Robotics, Virtual Reality, Artificial Intelligence</li>
-                </ul>
-            </td>
-        </tr>
-        
-        
-        <tr>
-            <td colspan="2">
-                    <hr>
-                <h2>California State University, Fresno</h2>
-            </td>
-        </tr>
-        <tr>
-            <td><h4>Aug. 2013</h4></td>
-            <td><h3>Bachelor of Science - Electrical Engineering</h3></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>
-                <ul>
-                    <li> Graduated Summa Cum Laude in three years</li>
-                    <li> Husband Boeing Full Ride Engineering Scholarship Recipient</li>
-                    <li> Minors in Mathematics and Physics</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+    <div class="diploma" >
+    <div>
+        <h2>California Polytechnic State University, SLO</h2>
+        <img src="calpoly.png">
+
+
+        <h3>Master of Science - Electrical Engineering</h3>
+        <h4>June 2014</h4>
+    </div>
+    </div>
+
+    <div class="diploma">
+        <h2>California State University, Fresno</h2>
+        <img src="csufresno.png">
+
+
+        <h3>Bachelor of Science - Electrical Engineering</h3>
+        <h4>Aug 2013</h4>
+    </div>
 </div>
 
 
